@@ -42,7 +42,7 @@ python scripts/extract_data.py
 python scripts/transform_data.py
 ```
 
-### 4️Exportar datos
+### 4️ Exportar datos
 
 ```bash
 python scripts/export_data.py
@@ -61,4 +61,9 @@ psql -U admin -d transactions_db -f scripts/create_view.sql
 
 ```bash
 python datos_d.py
+```
+### Pruebas Unitarias con SQLite
+
+```bash
+python -m pytest
 ```
