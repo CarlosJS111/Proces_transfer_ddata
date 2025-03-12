@@ -1,9 +1,8 @@
 version: '3.8'
 services:
-  postgres_db:
-    image: postgres:13
-    container_name: postgres_db
-    restart: always
+  db:
+    image: postgres:latest
+    container_name: postgres_container
     environment:
       POSTGRES_DB: transactions_db
       POSTGRES_USER: admin
@@ -12,5 +11,6 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+
 volumes:
   pgdata:
