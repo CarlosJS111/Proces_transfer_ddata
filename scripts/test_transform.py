@@ -51,5 +51,4 @@ def test_transaction_summary(setup_database):
 
     expected_df = pd.DataFrame(expected_data)
 
-    # Comparar valores con tolerancia para evitar errores por precisión
-    pd.testing.assert_frame_equal(df, expected_df, check_dtype=False, check_exact=False, atol=0.01)
+        pd.testing.assert_frame_equal(df, expected_df, check_dtype=False, check_exact=False, atol=0.01)
