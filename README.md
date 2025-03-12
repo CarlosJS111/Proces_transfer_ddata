@@ -148,4 +148,4 @@ Se creó el archivo scripts/create_view.sql, que define la vista transactions_su
 Y para visualizar los datos: 
 
 :Solución
-Se creó el archivo python datos_d.py, que muestra el resultado por día.
+Se creó el archivo datos_d.py, que visualiza el resultado por día con pandas.
