@@ -142,8 +142,10 @@ Esta estrategia asegura la integridad y disponibilidad de los datos para su aná
 ## 1.5 Creación de Vista SQL
 Requerimiento: Diseñar una vista en la base de datos que permita visualizar el monto total transaccionado por día para cada compañía.
 
-Solución:
+:Solución
 Se creó el archivo scripts/create_view.sql, que define la vista transactions_summary.
 
-Y para visualizar los datos: python datos_d.py
+Y para visualizar los datos: 
 
+:Solución
+Se creó el archivo python datos_d.py, que muestra el resultado por día.
